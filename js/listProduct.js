@@ -1,6 +1,6 @@
 
 
-fetch(`http://localhost:8080/v1/products/all`)
+fetch(`https://tienda-bsale-online.herokuapp.com/v1/products/all`)
     .then(response => response.json())
     .then(data => {
         console.log(data);
