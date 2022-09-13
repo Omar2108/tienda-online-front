@@ -1,5 +1,4 @@
 
-
 fetch(`https://tienda-bsale-online.herokuapp.com/v1/products/all`)
     .then(response => response.json())
     .then(data => {
@@ -7,13 +6,6 @@ fetch(`https://tienda-bsale-online.herokuapp.com/v1/products/all`)
         for (let i = 0; i < data.length; i++) {
             const element = data[i];
 
-            let bebidasEnergeticas = document.getElementById("bebidasEnergeticas");
-            let pisco = document.getElementById("pisco");
-            let ron = document.getElementById("ron");
-            let bebida = document.getElementById("bebida");
-            let snack = document.getElementById("snack");
-            let cerveza = document.getElementById("cerveza");
-            let vodka = document.getElementById("vodka");
             let productos = document.getElementById("productos");
 
             let div = document.createElement("div");
@@ -44,9 +36,6 @@ fetch(`https://tienda-bsale-online.herokuapp.com/v1/products/all`)
                     div.setAttribute("category", "debidaEnergetica");
                     productos.appendChild(div);
                    
-                    
-
-                    
                     break;
                 case "2":
                     div.classList.add("product-item");
