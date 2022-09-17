@@ -1,7 +1,7 @@
 
 # TIENDA ONLINE PRODUCTOS
 ## Introduccion
-Este proyecto esta desarrollado en HTML5, CSS3, y JavaScript, JQuery y Bootstrap, el cual simula una pagina tipo tienda online que muestra una lista de productos ordenados por categorias. Esta pagina consume recursos de una api subida a un hosting en el siguiente link: https://tienda-bsale-online.herokuapp.com/v1/products/all . Esta aplicacion web tiene un deploy en el siguiente link: https://omar2108.github.io/ , el cual podra acceder desde cualquier navegador.
+Este proyecto esta desarrollado en HTML5, CSS3, y JavaScript, JQuery y Bootstrap, el cual simula una pagina tipo tienda online que muestra una lista de productos ordenados por categorias. Esta pagina consume recursos de una api subida a un hosting en el siguiente link: https://tienda-bsale-online.herokuapp.com/v1/products/all . Esta aplicacion web tiene un deploy en el siguiente link: https://omar2108.github.io/tienda-bsale-omar2108.github.io/ , el cual podra acceder desde cualquier navegador.
 
 ## Descarga y registro de cambios:
 Siempre se recomienda descargar desde GitHub la última versión.
