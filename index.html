@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,21 +12,38 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
 
     <!-- Script js -->
     <script async defer src="./js/listProduct.js" type="text/javascript"></script>
     <script async defer src="./js/filterProduct.js" type="text/javascript"></script>
-    <script  src="./js/jquery-3.6.1.js" ></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!-- jQuery -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        
 </head>
 
 <body>
-    
+
+
+    <!--cuerpo de la pagina  -->
     <main class="wrap">
-        <h1>Escoge un producto</h1>
-        <h2>Desea buscar un producto por su nombre haga click <a href="buscar.html">AQUI</a></h2>
-        
+        <!-- Barra de Navegacion -->
+        <nav class="navbar bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand">Tienda Virtual Bsale-Productos</a>
+                <form class="d-flex" role="search">
+                    <input id="buscador" class="form-control me-2" type="search" placeholder="Ingrese el nombre del producto o su categoria" aria-label="Search">
+                    <button id="btnBuscar" class="btn btn-outline-dark" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
         <br>
+       
+        <!-- Barra de navegaciones por categorias -->
         <div class="store-wrapper">
             <div class="category_list">
                 <a href="#" class="category_item" category="all">Todo</a>
@@ -38,10 +55,15 @@
                 <a href="#" class="category_item" category="cerveza">Cerveza</a>
                 <a href="#" class="category_item" category="vodka">Vodka</a>
             </div>
+
+            <!--Seccion para Agregar los productos -->
             <section class="products-list" id="productos">
-				
-			</section>
+                
             
+            </section>
+            
+        
+
 
     </main>
 
