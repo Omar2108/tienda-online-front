@@ -36,10 +36,12 @@ Siempre se recomienda descargar desde GitHub la última versión.
     [![Vodka](https://i.ibb.co/QfYmhzd/Captura-de-pantalla-166.png "Vodka")](http:/https://i.ibb.co/QfYmhzd/Captura-de-pantalla-166.png/ "Vodka")
 
 8. Buscador
+
     [![Buscador1](https://i.ibb.co/Jc7mZxC/Captura-de-pantalla-168.png "Buscador1")](htthttps://i.ibb.co/Jc7mZxC/Captura-de-pantalla-168.pngp:// "Buscador1")
     
     Si no encuentra ningun registro con el nombre del producto ingresado muestra un mensaje de error en pantalla indicado que no se encuentra el producto
     
+    [![Buscador2](https://i.ibb.co/tY0Z2c5/Captura-de-pantalla-170.png "Buscador2")](htthttps://i.ibb.co/tY0Z2c5/Captura-de-pantalla-170.pngp:// "Buscador2")
 
 ## Compatibilidad con navegadores
 - IE / Edge
