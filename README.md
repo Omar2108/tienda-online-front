@@ -11,8 +11,10 @@ Este proyecto esta desarrollado en HTML5, CSS3, y JavaScript, JQuery y Bootstrap
     -Luego lo puede abrir en IDE importando el proyecto o desde un editor de codigo de su preferencia.
  ### Forma 2:
     -Crear una carpeta, ingresar a git bash y ejecutar la siguiente linea de comando:
+    
             git clone https://github.com/Omar2108/tienda-online-front
-    -Luego lo puede abrir en IDE importando el proyecto o desde un editor de codigo de su preferencia
+            
+    -Luego lo puede abrir en IDE importando el proyecto o desde un editor de codigo de su preferencia.
     
 
 ## Descarga y registro de cambios:
