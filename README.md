@@ -17,6 +17,15 @@ Este proyecto esta desarrollado en HTML5, CSS3, y JavaScript, JQuery y Bootstrap
             
  -Luego lo puede abrir en el ide que este utilizando, importando el proyecto o desde un editor de codigo de su preferencia.
     
+### Instalacion de Dependencias
+    npm install 
+	npm install --legacy-peer-deps --force
+
+### Levantamiento de la aplicacion 
+#### En Desarrollo
+     npm run devstart
+#### En Produccion 
+    npm start
 
 ## Descarga y registro de cambios:
 Siempre se recomienda descargar desde GitHub la última versión.
