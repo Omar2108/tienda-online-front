@@ -5,7 +5,7 @@ const productos = document.getElementById("productos");
 //funcion para mostrar los datos en pantalla
 
 const mostrarDatos = () => {
-    fetch(`https://tienda-bsale-online.herokuapp.com/v1/products/all`)
+    fetch(`http://localhost:8080/v1/products/all`)
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -104,7 +104,7 @@ function filtrar() {
 
     productos.innerHTML = "";
 
-    fetch(`https://tienda-bsale-online.herokuapp.com/v1/products/filter/${buscador.value}`)
+    fetch(`http://localhost:8080/v1/products/filter/${buscador.value}`)
         .then(response => response.json())
         .then(data => {
             console.log(data);
